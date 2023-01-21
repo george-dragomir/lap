@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Linear Algebra & Probbaility</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Linear Algebra & Probbaility: SageMathCell</title>
+      <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+      <script>
+       // Make the div with id 'mycell' a Sage cell
+       sagecell.makeSagecell({inputLocation:  '#mycell',
+                             template:       sagecell.templates.minimal,
+                             evalButtonText: 'Activate'});
+       // Make *any* div with class 'compute' a Sage cell
+       sagecell.makeSagecell({inputLocation: 'div.compute',
+                              evalButtonText: 'Evaluate'});
+       </script>
    </head>
    <body>
-      <h1>Welcome to LA&P</h1>
+      <h1>Welcome to Linear Algebra & probability</h1>
       <p>we'll try to set up a Sage cell here..</p>
    </body>
 </html>
