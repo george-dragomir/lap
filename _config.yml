@@ -1,0 +1,8 @@
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme
+title: Linear Algebra & Probability
+description: Documentation and Sage Cells to use for Linear Algbera & Probability
+author: George Dragomir
+email: george.dragomir@columbia.edu
+baseurl: /LAP
