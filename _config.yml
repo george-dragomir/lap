@@ -1,8 +1,8 @@
-remote_theme: just-the-docs
+theme: just-the-docs
 plugins:
-- jekyll-default-layout
+- jekyll-seo-tag
 title: Linear Algebra & Probability
 description: Documentation and Sage Cells to use for Linear Algbera & Probability
 author: George Dragomir
 email: george.dragomir@columbia.edu
-baseurl: /lap
+baseurl: "/lap"
