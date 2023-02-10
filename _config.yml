@@ -1,6 +1,6 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: just-the-docs
 plugins:
-- jekyll-include-cache
+- jekyll-default-layout
 title: Linear Algebra & Probability
 description: Documentation and Sage Cells to use for Linear Algbera & Probability
 author: George Dragomir
