@@ -1,6 +1,7 @@
 remote_theme: just-the-docs
 plugins:
-- jekyll-default-layout
+- jekyll-remote-theme
+- jehyll-seo-tag
 title: Linear Algebra & Probability
 description: Documentation and Sage Cells to use for Linear Algbera & Probability
 author: George Dragomir
