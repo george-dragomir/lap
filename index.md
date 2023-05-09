@@ -40,9 +40,10 @@
 
 <h2>Your own computations</h2>
 Type your own Sage computation below and click “Evaluate”.
-<div id="mysagecell"><script type="text/x-sage">A = matrix([[1,2,3],
-                                                            [4,5,6],
-                                                            [7,8,9]])
+<div id="mysagecell"><script type="text/x-sage">
+A = matrix([[1,2,3],
+            [4,5,6],
+            [7,8,9]])
 A.rref() </script></div>
 <textarea id="clipboard"></textarea>
   </body>
